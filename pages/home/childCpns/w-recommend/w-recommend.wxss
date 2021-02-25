@@ -1,5 +1,4 @@
-/* pages/home/home.wxss */
-/* .recommend{
+.recommend{
   display: flex;
   margin-top: 40rpx;
   padding-bottom: 40rpx;
@@ -11,25 +10,24 @@
   text-align: center;
 }
 
-.recommend-item image{
+/* .recommend-item image{
+  width: 160rpx;
+  height: 160rpx;
+} */
+
+.recommend-item-image{
   width: 160rpx;
   height: 160rpx;
 }
 
-.recommend-item view{
+/* .recommend-item view{
   font-size:30rpx;
   color: #555;
   margin-top: 10rpx;
 } */
 
-/* .popular image{
-  width: 100%;
-} */
-
-.fixed{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+.recommend-item-view{
+  font-size:30rpx;
+  color: #555;
+  margin-top: 10rpx;
 }

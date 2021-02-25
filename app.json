@@ -5,6 +5,10 @@
     "pages/cart/cart",
     "pages/profile/profile"
   ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white"
+  },
   "tabBar": {
     "selectedColor":"#ff5777",
     "list": [
@@ -21,10 +25,10 @@
       "selectedIconPath": "/assets/tabbar/category_active.png"
     },
     {
-      "pagePath": "pages/home/home",
+      "pagePath": "pages/cart/cart",
       "text": "购物车",
-      "iconPath": "/assets/tabbar/home.png",
-      "selectedIconPath": "/assets/tabbar/home_active.png"
+      "iconPath": "/assets/tabbar/cart.png",
+      "selectedIconPath": "/assets/tabbar/cart_active.png"
     },
     {
       "pagePath": "pages/profile/profile",
